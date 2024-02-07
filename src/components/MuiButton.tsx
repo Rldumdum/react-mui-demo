@@ -1,5 +1,4 @@
-import React from "react";
-import { Stack, Button, IconButton } from "@mui/material";
+import { Stack, Button, IconButton, ButtonGroup } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 
 const MuiButton = () => {
@@ -45,7 +44,12 @@ const MuiButton = () => {
         </Button>
       </Stack>
       <Stack spacing={2} direction={"row"}>
-        <Button variant="contained" startIcon={<SendIcon />} disableRipple onClick={()=> alert("clicked")}>
+        <Button
+          variant="contained"
+          startIcon={<SendIcon />}
+          disableRipple
+          onClick={() => alert("clicked")}
+        >
           Send
         </Button>
         <Button variant="contained" endIcon={<SendIcon />} disableElevation>
@@ -54,6 +58,19 @@ const MuiButton = () => {
         <IconButton aria-label="send" color="success" size="small">
           <SendIcon />
         </IconButton>
+      </Stack>
+      <Stack direction="row">
+        <ButtonGroup
+          variant="text"
+          orientation="vertical"
+          size="small"
+          color="secondary"
+          aria-label="alignment button group"
+        >
+          <Button>Left</Button>
+          <Button>Center</Button>
+          <Button>Right</Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   );
