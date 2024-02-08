@@ -1,5 +1,6 @@
 import "./App.css";
-import MuiTable from "./components/MuiTable";
+import MuiAlert from "./components/MuiAlert";
+// import MuiTable from "./components/MuiTable";
 // import MuiTooltip from "./components/MuiTooltip";
 // import MuiBadge from "./components/MuiBadge";
 // import MuiChip from "./components/MuiChip";
@@ -52,7 +53,8 @@ function App() {
       {/* <MuiList/> */}
       {/* <MuiChip /> */}
       {/* <MuiTooltip /> */}
-      <MuiTable />
+      {/* <MuiTable /> */}
+      <MuiAlert/>
     </div>
   );
 }
