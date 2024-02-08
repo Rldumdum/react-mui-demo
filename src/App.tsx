@@ -30,7 +30,7 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar/>
+      <MuiNavbar />
     </div>
   );
 }
