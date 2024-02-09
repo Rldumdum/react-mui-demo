@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
   Stack,
   Button,
@@ -6,6 +7,9 @@ import {
   ToggleButtonGroup,
   ToggleButton,
 } from "@mui/material";
+=======
+import { Stack, Button, IconButton, ButtonGroup } from "@mui/material";
+>>>>>>> 1cba407f50381ebfd509fe874c93ab46ed3bec27
 import SendIcon from "@mui/icons-material/Send";
 import FormatBoldIcon from "@mui/icons-material/FormatBold";
 import FormatItalicIcon from "@mui/icons-material/FormatItalic";
@@ -91,6 +95,7 @@ const MuiButton = () => {
           <Button>Right</Button>
         </ButtonGroup>
       </Stack>
+<<<<<<< HEAD
       <Stack direction={"row"}>
         <ToggleButtonGroup
           aria-label="text formatting"
@@ -112,6 +117,8 @@ const MuiButton = () => {
           </ToggleButton>
         </ToggleButtonGroup>
       </Stack>
+=======
+>>>>>>> 1cba407f50381ebfd509fe874c93ab46ed3bec27
     </Stack>
   );
 };
